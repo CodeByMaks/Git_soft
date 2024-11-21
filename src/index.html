@@ -1,51 +1,296 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-</head>
-<body class="max-w-screen-2xl m-auto">
-  <header>
-    <div class="flex justify-between w-[85%] m-auto py-6">
-        <div class="flex gap-11">
-            <div>
-                <img src="./img/Rectangle.png" alt="">
-            </div>
-            <navbar>
-                <ul class="flex gap-11 text-[18px]">
-                    <li>Why Dock</li>
-                    <li>
-                        <select name="" id="">
-                            <option value="">Solutions</option>
-                        </select>
-                    </li>
-                    <li>Templates</li>
-                    <li>Library</li>
-                </ul>
-            </navbar>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="max-w-screen-2xl m-auto">
+    <header>
+      <div
+        class="flex flex-wrap items-center justify-between w-[85%] m-auto py-6"
+      >
+        <div class="flex gap-5 md:gap-11 items-center">
+          <div>
+            <img src="./img/Rectangle.png" alt="Logo" class="h-8 w-auto" />
+          </div>
+          <navbar class="hidden md:block">
+            <ul class="flex gap-5 md:gap-11 text-[14px] md:text-[18px]">
+              <li>Why Dock</li>
+              <li>
+                <select
+                  name=""
+                  id=""
+                  class="bg-transparent text-[14px] md:text-[18px]"
+                >
+                  <option value="">Solutions</option>
+                </select>
+              </li>
+              <li>Templates</li>
+              <li>Library</li>
+            </ul>
+          </navbar>
         </div>
-    
-            <div class="flex gap-3">
-                <button class="py-3 px-4 text-[18px]">Login</button>
-                <button class="py-3 px-7 bg-[#408CFF1A] rounded-full text-[18px] font-bold text-blue-500">Get Started</button>
-            </div>
-    </div>
+        <div class="flex gap-3 mt-4 md:mt-0">
+          <button
+            class="py-2 px-4 text-[14px] md:py-3 md:px-4 md:text-[18px] rounded"
+          >
+            Login
+          </button>
+          <button
+            class="py-2 px-4 md:py-3 md:px-7 bg-[#408CFF1A] rounded-full text-[14px] md:text-[18px] font-bold text-blue-500"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="w-full md:w-[90%] flex flex-wrap justify-center items-center py-4 mx-auto"
+      >
+        <div
+          class="w-full md:w-[496px] h-auto md:h-[288px] text-center md:text-left px-4 md:px-0"
+        >
+          <h1 class="text-[32px] md:text-[50px] font-bold">
+            The new way to manage external relationships
+          </h1>
+          <p class="text-[16px] md:text-[20px] text-gray-500 py-3 md:py-5">
+            Create shared spaces with <br class="hidden md:block" />
+            prospects and customers
+          </p>
+          <div>
+            <button
+              class="py-2 px-5 md:py-3 md:px-7 bg-[#4058FF] rounded-full text-[14px] md:text-[18px] font-bold text-white mt-5"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="w-full md:w-auto">
+          <img
+            src="./img/Rectangle (1).png"
+            alt="Image"
+            class="max-w-full h-auto"
+          />
+        </div>
+      </div>
+    </header>
 
     <main>
-        <div class="w-90% flex justify-center py-4">
-            <div class="w-[496px] h-[288px]">
-                <h1 class="text-[50px]">The new way to manage external relationships</h1>
-                <p class="text-[20px] text-gray-500 py-5">Create shared spaces with <br> prospects and customers</p>
-                <div>
-                    <button class="py-3 px-7 bg-[#4058FF] rounded-full text-[18px] font-bold text-white my-5">Get Started</button>
-                </div>
-            </div>
-            <div>
-                <img src="./img/Rectangle (1).png" alt="">
-            </div>
+      <aside class="w-[90%] mx-auto mt-10 md:mt-24 text-center">
+        <h2 class="text-[20px] md:text-[36px] py-3">
+          Transform the customer experience from <br />
+          demo to onboarding and beyond
+        </h2>
+        <p class="text-[15px] md:text-[20px] text-gray-500 mt-4">
+          Personalized spaces that make you look professional.
+        </p>
+      </aside>
+
+      <section
+        class="w-[90%] h-[680px] m-auto md:flex bg-[#4058FF] text-center md:text-left justify-between items-center rounded-2xl my-14"
+      >
+        <div class="md:w-[400px] w-[85%] p-0 m-auto h-[446px]] md:pl-14">
+          <h1 class="md:text-[34px] text-[25px] py-6 md:py-0 text-white">
+            Clients always know where to go when they need something
+          </h1>
+          <p class="md:text-[20px] text-[15px] text-white py-5">
+            One destination that hosts all of your links, pdfs, meeting agendas,
+            deliverables, project timelines, proposals, and more.
+          </p>
+          <p class="md:text-[20px] text-[15px] text-white py-5">
+            Embed your favorite software from Figma to Google Slides to Vimeo.
+          </p>
+          <img
+            class="md:m-0 m-auto md:p-0 p-5"
+            src="img/Rectangle (2).png"
+            alt=""
+          />
         </div>
+        <div>
+          <img class="ml-3 md:m-0" src="./img/Frame (1).png" alt="" />
+        </div>
+      </section>
+
+      <section
+        class="w-[90%] md:h-[650px] h-auto m-auto bg-[#F1F5FF80] rounded-2xl md:flex items-center justify-evenly py-6"
+      >
+        <div>
+          <img src="./img/Rectangle (3).png" alt="" />
+        </div>
+        <div class="md:w-[343px] w-90% h-[283] md:py-0 py-8">
+          <h2 class="md:text-[34px] text-[20px] text-center md:text-left">
+            Navigate complex deals and onboard customers
+          </h2>
+          <p
+            class="md:text-[20px] text-[15px] text-center md:text-left text-gray-500 py-4"
+          >
+            Stop using that spreadsheet. Instead, build a collaborative mutual
+            action plan with customers - share status, align due dates, assign
+            tasks, leave comments and upload files.
+          </p>
+        </div>
+      </section>
+
+      <section class="w-[90%] md:h-[585px] m-auto md:flex gap-8 my-6">
+        <div class="md:w-[50%] w-[90%] m-auto h-[585px] bg-[#FFF6E480]">
+          <div class="w-[80%] m-auto py-14">
+            <h3 class="text-[24px]">Personalization at scale.</h3>
+            <p class="text-[24px] text-gray-500">
+              Create branded spaces with custom content.
+            </p>
+            <div class="py-20">
+              <img src="./img/Rectangle (4).png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="md:w-[50%] w-[90%] m-auto h-[585px] bg-[#FFF6E480] relative"
+        >
+          <div class="w-[80%] m-auto py-14 relative z-10">
+            <h3 class="text-[24px]">Share feedback & move projects along.</h3>
+            <p class="text-[24px] text-gray-500">
+              Customers comment on what you’re working on and share key
+              resources with file uploads.
+            </p>
+          </div>
+          <div class="absolute top-[55%] left-[16%]">
+            <img src="./img/Rectangle (5).png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <aside class="w-[90%] mx-auto mt-10 md:mt-24 text-center">
+        <h2 class="text-[20px] md:text-[36px] py-3">
+          Uplevel how Sales and Customer teams work
+        </h2>
+        <p class="text-[15px] md:text-[20px] text-gray-500 mt-4">
+          Dock helps leadership build a repeatable sales and customer success
+          process.
+        </p>
+      </aside>
+
+      <section
+        class="w-[90%] md:h-[680px] h-auto m-auto flex flex-col md:flex-row bg-[#1D2036] text-center md:text-left justify-between items-center rounded-2xl my-14"
+      >
+        <div class="md:w-[27%] w-full px-8 py-10 md:py-0">
+          <h1 class="text-[28px] md:text-[34px] text-white leading-tight">
+            Understand what content performs
+          </h1>
+          <p class="text-[16px] md:text-[20px] text-gray-400 mt-4">
+            Get insight into when clients view the shared space and what they
+            clicked on.
+          </p>
+        </div>
+        <div class="md:w-[60%] w-full flex justify-center">
+          <img
+            class="w-full max-w-[500px] md:max-w-none rounded-lg shadow-md"
+            src="./img/Rectangle (6).png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section class="w-[90%] md:h-[585px] m-auto md:flex gap-8 my-6">
+        <div class="md:w-[50%] w-[90%] m-auto h-[585px] bg-[#F1F5FF80]">
+          <div class="w-[80%] m-auto py-14">
+            <h3 class="text-[24px]">Save Time.</h3>
+            <p class="text-[24px] text-gray-500">
+                Duplicate work from project to project, so you’re not starting from scratch every time.
+            </p>
+            <div class="py-12">
+              <img src="./img/Rectangle (7).png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="md:w-[50%] w-[90%] m-auto h-[585px] bg-[#F1F5FF80]">
+          <div class="w-[80%] m-auto py-14">
+            <h3 class="text-[24px]">Move the relationship forward.</h3>
+            <p class="text-[24px] text-gray-500">
+              Notifications give visibility into how the project is moving
+              along.
+            </p>
+            <div class="py-12">
+              <img src="./img/Rectangle (8).png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-[90%] md:h-[585px] mx-auto my-6 bg-[#F1F5FF80] py-8 rounded-2xl">
+        <div class="w-full flex flex-wrap justify-center gap-6 items-center">
+          <div class="w-full md:w-[30%] h-auto md:h-[430px] rounded-2xl p-6">
+            <h2 class="text-[24px] md:text-[34px] font-bold">
+              Discover how Sales and Customer teams use Dock everyday
+            </h2>
+            <p class="text-[16px] md:text-[20px] text-gray-500 py-4">
+              Dock helps companies across the customer lifecycle.
+            </p>
+          </div>
+          <div class="w-full md:w-[30%] h-[250px] md:h-[430px] bg-[#4058FF] rounded-2xl"></div>
+          <div class="w-full md:w-[30%] h-[250px] md:h-[430px] bg-[#4058FF] rounded-2xl"></div>
+        </div>
+      </section>
+      
+
+      <aside class="w-[90%] mx-auto mt-10 md:mt-14 text-center">
+        <h2 class="text-[20px] md:text-[36px] py-3">
+            Explore Dock templates
+        </h2>
+        <p class="text-[15px] md:text-[20px] text-gray-500 mt-4">
+            Explore templates for sales, customer success, and agencies. <br>
+            Customize any template and share with clients.
+        </p>
+        <div>
+            <button  class="py-2 px-4 md:py-3 md:px-10 my-6 bg-[#408CFF1A] rounded-full text-[14px] md:text-[18px] font-bold text-blue-500">
+                Explore templates
+            </button>
+        </div>
+      </aside>
+
+      <section class="w-[55%] m-auto grid grid-cols-3 grid-rows-2 my-5">
+        <div>
+            <img src="./img/Rectangle (12).png" alt="">
+            <span>Sales</span>
+            <p>Demo Follow Up</p>
+        </div>
+        <div>
+            <img src="./img/Rectangle (12).png" alt="">
+            <span>Sales</span>
+            <p>Demo Follow Up</p>
+        </div>
+        <div>
+            <img src="./img/Rectangle (12).png" alt="">
+            <span>Sales</span>
+            <p>Demo Follow Up</p>
+        </div>
+        <div>
+            <img src="./img/Rectangle (12).png" alt="">
+            <span>Sales</span>
+            <p>Demo Follow Up</p>
+        </div>
+        <div>
+            <img src="./img/Rectangle (12).png" alt="">
+            <span>Sales</span>
+            <p>Demo Follow Up</p>
+        </div>
+        <div>
+            <img src="./img/Rectangle (12).png" alt="">
+            <span>Sales</span>
+            <p>Demo Follow Up</p>
+        </div>
+      </section>
+
+      <section class="w-[90%] h-[346px] m-auto bg-[#4058FF] rounded-2xl my-14">
+
+      </section>
     </main>
-  </header>
-</body>
+
+    <footer class="w-[90%] h-[125px] m-auto  bg-[#4058FF] my-14 flex justify-around">
+        <div class="w-[182px] h-[125px] bg-fuchsia-700"></div>
+        <div class="w-[236px] h-[125px] bg-fuchsia-700"></div>
+        <div class="w-[236px] h-[125px] bg-fuchsia-700"></div>
+        <div class="w-[236px] h-[125px] bg-fuchsia-700"></div>
+    </footer>
+  </body>
 </html>
